@@ -1,7 +1,26 @@
-.App {
-  text-align: center;
+.App>div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border:1px solid red; */
+  background-color: rgb(27, 27, 27);
+  color: white;
+  height: 100px;
 }
-
+.App>div>div>ul{
+  display: flex;
+  width: 400px;
+  list-style:none;
+  font-size: 18px;
+  color:white;
+  justify-content: space-evenly;
+}
+.App>div>div button{
+  padding:10px 20px;
+  border-radius: 20px;
+  background-color: rgb(125, 125, 236);
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
